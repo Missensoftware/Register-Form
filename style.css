@@ -1,0 +1,70 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{font-family: 'Poppins', sans-serif; background-color: #f1f1f1;}
+
+#regForm{
+    display: block;
+    margin:100px auto;
+    padding: 40px;
+    width: 50%;
+    min-width: 300px;
+    background: #fff;
+}
+
+h1{
+    text-align: center;
+}
+
+.tab{
+    display: none;
+}
+
+input.invalid{
+    background: #ffdddd;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+    padding: 0 10px;
+}
+
+.btn-group{
+    float: right;
+}
+
+.btn-group button{
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.6;
+}
+
+#prevBtn{
+    background: #ccc;
+}
+#nextBtn{
+    background: #059862;
+}
+
+.Indicater{
+    text-align: center;
+}
+.step{
+    width: 15px;
+    height: 15px;
+    background: #dddddd;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 40px 5px 0px;
+}
+.step.active{
+    opacity: 1;
+}
+.step.finish{
+    background: #04AA6D;
+}
